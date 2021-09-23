@@ -1,0 +1,272 @@
+*{
+    background-color:blanchedalmond;
+    box-sizing: border-box;
+    
+
+}
+
+
+
+
+
+
+.profile-pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    
+    float:left;
+    padding:30px ;
+
+}
+
+.profile-details{
+    padding: 15px;
+    color:green;
+    float: left;
+}
+.link{
+    
+    padding: 20px;
+    text-align: center;
+
+}
+.link a{
+    color:chocolate;
+    
+    text-decoration: none;
+
+}
+.link a:hover{
+    background-color: rgb(230, 185, 119);
+}
+.tooltip .tooltip-text{
+    width: 150px;
+    background-color: grey;
+    color: white;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+    visibility: hidden;
+    top: 15px;
+}
+.tooltip{
+    position: relative;
+}
+.tooltip:hover .tooltip-text{
+    visibility: visible;
+}
+.div-clear{
+    clear: both;
+}
+ hr{
+    border: 3px solid black;
+    border-top: none;
+    
+}
+.left-div{
+    float: left;
+    width: 30%;
+    
+    
+    padding-top: 80px;
+    text-align: center;
+}    
+.left-div h3:hover{
+    background-color: hotpink;
+    
+}
+.right-div p:hover{
+    background-color: blue;
+    
+}
+.right-div{
+    float: right;
+    
+    width: 60%;
+    
+}
+.common-hr{
+    clear: both;
+    padding: 10px;
+}
+.passed3{
+    width: 45%;
+     float: right;
+}
+
+
+
+.passed2{
+    float:right;
+    width: 45%;
+}
+.overflow{
+    width: 100%;
+    height: 200px;
+    overflow: auto;
+    
+}
+.overflow p{
+    background-color: coral;
+}
+.form-filap{
+    
+    font-weight: bold;
+    text-align: center;
+    
+
+    
+}
+.form-filap h1{
+    background-color: cadetblue;
+    padding: 20px;
+    
+}
+#search{
+    padding: 23px 60px;
+    width: 210px;
+    font-size: 1.5rem;
+    background-color: gold;
+    background-image:url(search.png);
+    background-repeat: no-repeat;
+    background-position: 15px 20px;
+    transition: width 2s ease-in-out;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border-color: red;
+}
+
+#search:hover{
+    width: 100%;
+    background-color:rgb(230, 185, 119);
+}
+#Username{
+    padding: 23px ;
+    width: 100%;
+    font-size: 1.5rem;
+    background-color: rgb(230, 185, 119);
+    border-radius: 15px;
+    border-color: saddlebrown;
+    color: black;
+}
+#Username:hover{
+    background-color: seagreen;
+}
+#Email{
+    padding: 23px;
+    width: 100%;
+    font-size: 1.5rem;
+    background-color: rgb(230, 185, 119);
+    border-radius: 15px;
+    border-color: saddlebrown;
+    color: black;
+
+
+}
+#Email:hover{
+    background-color:blueviolet ;
+}
+#password{
+    padding: 23px;
+    width: 100%;
+    font-size: 1.5rem;
+    background-color: rgb(230, 185, 119);
+    border-radius: 15px;
+    border-color: salmon;
+
+}
+#password:hover{
+    background-color:white;
+}
+#dateofbirth{
+    width: 100%;
+    padding: 23px;
+    background-color: burlywood;
+border-color: red;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+#dateofbirth:hover{
+    background-color: seashell;
+}
+#file{
+    width: 100%;
+    padding: 23px;
+    background-color: burlywood;
+border-color: red;
+    border-radius: 15px;
+    box-sizing: border-box;
+
+}
+#file:hover{
+    background-color: sienna;
+}
+button{
+    background-color: sienna;
+    color: whitesmoke;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: black;
+}
+select,option{
+    background-color: sienna;
+    
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+ select:hover{
+    background-color: burlywood;
+    }
+    textarea{
+        background-color: burlywood;
+        width: 500px;
+        height: 100px;
+    }
+    textarea:hover{
+        background-color: coral;
+    }
+    table,td,th{
+        border: 1px solid black;
+        border-collapse: collapse;
+        
+     }
+     th,td{
+         padding: 15px;
+         
+     }
+     table{
+         border-spacing: 5px;
+         border-color: black;
+         width: 100%;
+     }
+    th{
+        background-color: black;
+        color: blanchedalmond;
+    }
+    td{
+        background-color: burlywood;
+    }
+    .contact{
+        background-color: burlywood;
+        text-align: center;
+        padding: 20px;
+    }
+    .contact a{
+        color: black;
+        text-decoration: none;
+        margin: 20px;
+    }
+    .contact P{
+        color:tomato;
+        margin-top: 20px;
+    }
+    
+
+
+    
+
